@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Gilroy-bold';
+    src: url('Gilroy-Bold.ttf');
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    transition: 0.2s;
+    font-family: 'Gilroy-bold';
+}
+
+* {
+    margin: 0;
+}
+
+main {
+    width: 250px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+input {
+    cursor: pointer;
+}
